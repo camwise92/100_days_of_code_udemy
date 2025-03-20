@@ -1,3 +1,29 @@
+"""
+Calculator Project (Day 10 of Udemy 100 Days of Code)
+
+File: main.py
+Description: A simple calculator that performs basic arithmetic operations.
+Author: Cameron Carlisle
+Date created: 20/03/2025
+Last modified: 20/03/2025
+Version: 1.0
+
+This script allows users to perform basic arithmetic operations (addition, subtraction, multiplication, and division).  
+Users can continue calculations with the previous result or start a new calculation.  
+
+Usage:
+1. Enter the first number.
+2. Choose an operation (+, -, *, /).
+3. Enter the second number.
+4. View the result and decide whether to continue or start over.
+
+Dependencies:
+- Requires the `art` module for ASCII art display.
+
+Contact: cameroncarlisle1992@gmail.com
+"""
+
+
 import art
 
 def main():
