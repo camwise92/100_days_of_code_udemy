@@ -1,6 +1,8 @@
 year = int(input("What's your year of birth?"))
 
-if year > 1980 and year < 1994:
+if 1980 <= year <= 1994:
     print("You are a millennial.")
 elif year > 1994:
     print("You are a Gen Z.")
+else:
+    print("You are not a millennial or Gen Z.")
